@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>wp-pusher-checkout</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div class="overall">
+      <nav class="nav">
+        <span class="logo">
+          <img src="./picture/wppusher-logo.png" alt="logo" />
+        </span>
+        <span class="link">
+          <a href="#">Download</a>
+          <a href="#">Learn more</a>
+          <a href="#">Pricing</a>
+          <a href="#">Help</a>
+          <a href="#" class="account">Account</a>
+        </span>
+      </nav>
+      <main class="main">
+        <section class="section">
+          <div class="title">
+            <h6>Checkout</h6>
+          </div>
+          <div class="basic-info">
+            <h3><img class="icon1 icon" src="./picture/icons8-1-30.png" alt=""> Your Basic Information</h3>
+            <form action="post">
+              <div class="first">
+                <label for="fname">First Name</label><br />
+                <input type="text" placeholder="Jane" name="fname" />
+              </div>
+              <div class="second">
+                <label for="lname">Last Name</label><br />
+                <input type="text" placeholder="Doe" name="lname" />
+              </div>
+              <div class="email">
+                <label for="email">Email</label><br />
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="janedoe@example.com"
+                />
+              </div>
+            </form>
+          </div>
+          <div class="payment">
+            <h3><img src="./picture/icons8-2-50.png" class="icon2 icon" alt=""> Your Payment Information</h3>
+            <form action="post">
+              <div class="creditcard">
+                <label for="card">Credit Card</label><br />
+                <input
+                  type="password"
+                  name="card"
+                  id="card"
+                  placeholder="Card Number"
+                />
+              </div>
+            </form>
+          </div>
+          <div class="purchase">
+            <button>Buy WP Pusher</button>
+            <p class="help"><img src="./picture/help_FILL0_wght400_GRAD0_opsz24.png" class="iconhelp icon" alt=""> Need any help? Dont hesitate to 
+                <a href="#" class="support">contact support!</a></p>
+            <p class="power">powered by <b>stripe</b></p>
+          </div>
+          <div class="sidebar">
+            <h3>Freelancer</h3>
+            <div class="num">
+              <div class="dollar">$</div>
+              <div class="number">99</div>
+              <div class="year">/year</div>
+            </div>
+            <p class="firstp">Automatic renews<br/>after 1 year</p>
+            <div class="advan">
+              <p><img src="./picture/check_circle_FILL0_wght400_GRAD0_opsz24.png" class="iconcheck icon" alt=""> Use on 5 client sites</p>
+              <p><img src="./picture/check_circle_FILL0_wght400_GRAD0_opsz24.png" class="iconcheck icon" alt=""> Private repositories</p>
+              <p><img src="./picture/check_circle_FILL0_wght400_GRAD0_opsz24.png" class="iconcheck icon" alt=""> Email support</p>
+            </div>
+            <p>Need <b>20</b>client sites?</p>
+            <p>Switch to the Agency plan</p>
+            <div class="profile">
+              <p class="tex">
+                FTP is horrible to deal with WP Pusher solves that issue, and
+                the customer support is awesome!
+              </p>
+              <img class="pp" src="./picture/Bitmap.png" alt="picture" />
+              <span class="name">Kirk Beard</span>
+            </div>
+          </div>
+        </section>
+        <footer>
+          <p>&copy;2018 WP Pusher IVS . <a href="#">Terms of Service</a></p>
+        </footer>
+      </main>
+    </div>
+  </body>
+</html>
